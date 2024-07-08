@@ -5,10 +5,9 @@ function Navbar() {
   const handleMenu = () => {
     // Add your menu handling logic here
     setIsMenuOpen(isMenuOpen=="hidden"?"block":"hidden");
-    console.log("Menu clicked");
   };
   return (
-    <nav className="p-3 bg-white flex justify-between items-center shadow-md ">
+    <nav className="p-3 sticky top-0 w-full z-50 bg-white flex justify-between items-center shadow-md">
       <a href="#" className="flex justify-center items-center gap-2">
         <img
           className="object-cover max-w-12 max-h-12"

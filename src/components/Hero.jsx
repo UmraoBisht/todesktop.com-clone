@@ -1,14 +1,16 @@
-import React from "react";
-import useElementOnScreen from "../hooks/useElementOnScreen";
 
 function Hero() {
-  const [containerRef, isVisible] = useElementOnScreen({
-    root: null,
-    rootMargin: "0px",
-    threshold: 1.0,
-  });
+  function setupIntersectionObserver(element, isLTR, speed) {
+    const intersectionCallback = (entries) => {
+      const isIntersecting = entries[0].isIntersecting;
+      console.log(isIntersecting);
+    };
+    const intersectionObserver = new IntersectionObserver(intersectionCallback);
+    intersectionObserver.observe(element);
+  }
+
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-300 via-orange-300 to-transparent">
+    <div className="min-h-screen bg-gradient-to-b from-purple-300 via-orange-300 to-transparent">
       <div className="max-w-4xl mx-auto px-6 flex flex-col sm:items-center sm:text-center sm:pt-4">
         <div className="flex w-fit items-center border border-yellow-300 bg-yellow-100 rounded-lg px-3 py-1 my-6  sm:mt-10 gap-2 shadow-md hover:shadow-xl hover:-translate-y-1 transition ease-in-out group">
           <div className="w-2 h-2 rounded-full bg-yellow-400 border border-yellow-600"></div>
@@ -18,7 +20,7 @@ function Hero() {
               Find-in-page bug fixes
             </span>
           </p>
-          <i class="fa-solid fa-arrow-right text-yellow-600 group-hover:translate-x-1 transition duration-300"></i>
+          <i className="fa-solid fa-arrow-right text-yellow-600 group-hover:translate-x-1 transition duration-300"></i>
         </div>
         <div className="hidden features-section sm:flex items-center gap-4 my-6">
           <div className="flex justify-center items-center gap-2 text-gray-500">
@@ -62,7 +64,7 @@ function Hero() {
         </div>
       </div>
       <div className="companies-container flex flex-col gap-8">
-        <div className="companies-title flex justify-center gap-4 pt-4">
+        <div className="companies-title flex justify-center gap-4 pt-8 md:pt-10">
           <img className="translate-y-2" src="src/assets/asset 2.svg" alt="" />
           <h1 className="font-semibold">APP POWERED BY TODESKTOP</h1>
           <img
@@ -73,8 +75,8 @@ function Hero() {
         </div>
         <div className="lines-group flex flex-col gap-4 overflow-hidden">
           <div
-            ref={containerRef}
-            className="-translate-x-40 line1 flex gap-4 w-screen"
+            id="line1"
+            className="-translate-x-20 line1 flex gap-4 w-screen scroll-x"
           >
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
@@ -198,10 +200,7 @@ function Hero() {
               </span>
             </div>
           </div>
-          <div
-            ref={containerRef}
-            className="-translate-x-5 line2 flex gap-4 w-screen"
-          >
+          <div className="-translate-x-5 line2 flex gap-4 w-screen">
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
@@ -324,10 +323,7 @@ function Hero() {
               </span>
             </div>
           </div>
-          <div
-            ref={containerRef}
-            className="-translate-x-20 line3 flex gap-4 w-screen"
-          >
+          <div className="md:hidden -translate-x-20 line3 flex gap-4 w-screen">
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
@@ -452,7 +448,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 
