@@ -2,8 +2,8 @@ import React from "react";
 
 function Feature() {
   return (
-    <div className="bento-grid px-6 py-8 mx-auto lg:px-8 mt-16 max-w-7xl">
-      <h2 className="text-5xl sm:font-semibold mb-[4rem]">
+    <div className="bento-grid px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
+      <h2 className="text-5xl font-semibold mb-[4rem]">
         ToDesktop handles the details
       </h2>
       <div className="grid-container flex flex-col gap-6 lg:grid lg:grid-cols-3 grid-rows-6">

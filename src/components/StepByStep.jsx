@@ -2,9 +2,9 @@ import React from "react";
 
 function StepByStep() {
   return (
-    <div className="flex flex-col gap-[3rem] px-6 py-8 mx-auto lg:px-8 mt-16 max-w-7xl">
+    <div className="flex flex-col gap-[3rem] px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
       <div className="step1">
-        <h2 className="text-5xl sm:font-semibold mb-[4rem]">How it works</h2>
+        <h2 className="text-5xl font-semibold mb-[4rem]">How it works</h2>
         <div className="rounded-xl bg-gray-200 px-8 py-12 border flex gap-10 lg:justify-between flex-col lg:flex-row">
           <div className="flex flex-col gap-6 lg:w-1/2">
             <span className="border border-yellow-300 bg-yellow-50 text-yellow-800 px-3 py-1 w-fit rounded-lg font-medium font-display">
@@ -19,7 +19,7 @@ function StepByStep() {
             </p>
             <ul className="grid grid-cols-2 gap-2">
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -28,7 +28,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -37,7 +37,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -46,7 +46,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -55,7 +55,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check "></i>
+                <i className="fa-solid fa-check "></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -64,7 +64,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -86,7 +86,7 @@ function StepByStep() {
             <span className="border border-yellow-300 bg-yellow-50 text-yellow-800 px-3 py-1 w-fit rounded-lg font-medium font-display">
               Step 2
             </span>
-            <div class="-mt-6 -ml-8 flex">
+            <div className="-mt-6 -ml-8 flex">
               <svg
                 width="61"
                 height="17"
@@ -134,7 +134,7 @@ function StepByStep() {
             </p>
             <ul className="grid grid-cols-2 gap-2">
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -143,7 +143,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -152,7 +152,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -161,7 +161,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -170,7 +170,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check "></i>
+                <i className="fa-solid fa-check "></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -179,7 +179,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -188,7 +188,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -197,7 +197,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -229,7 +229,7 @@ function StepByStep() {
             </p>
             <ul className="grid grid-cols-2 gap-2">
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -238,7 +238,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -247,7 +247,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -256,7 +256,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -265,7 +265,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check "></i>
+                <i className="fa-solid fa-check "></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""
@@ -274,7 +274,7 @@ function StepByStep() {
                 </a>
               </li>
               <li className="flex gap-4 items-center">
-                <i class="fa-solid fa-check"></i>
+                <i className="fa-solid fa-check"></i>
                 <a
                   className="text-lg  border-b border-black border-opacity-30 hover:border-opacity-80"
                   href=""

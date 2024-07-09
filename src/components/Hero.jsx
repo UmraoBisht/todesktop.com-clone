@@ -24,7 +24,7 @@ function Hero() {
         </div>
         <div className="hidden features-section sm:flex items-center gap-4 my-6">
           <div className="flex justify-center items-center gap-2 text-gray-500">
-            <i class="fa-solid fa-code"></i>
+            <i className="fa-solid fa-code"></i>
             <p className="text-gray-600 font-semibold">Code optional</p>
           </div>
           <div className="flex items-center gap-2">
@@ -43,7 +43,7 @@ function Hero() {
             <p className="text-gray-600 font-semibold">Drag & drop builder</p>
           </div>
           <div className="flex items-center gap-2">
-            <i class="fa-solid fa-desktop"></i>
+            <i className="fa-solid fa-desktop"></i>
             <p className="text-gray-600 font-semibold">Windows, Mac, Linux</p>
           </div>
         </div>
