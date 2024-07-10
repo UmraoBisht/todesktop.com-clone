@@ -10,7 +10,7 @@ function Feature() {
         <div className="row-start-1 row-end-3 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
           <div className="rounded-2xl w-full gap-6 bg-slate-50 h-full flex justify-center items-center flex-col p-6 group-hover:bg-gradient-to-br group-hover:from-red-100 group-hover:via-purple-100 group-to-yellow-100">
             <h3 className="font-bold text-2xl">Native Notifications</h3>
-            <img src="src/assets/asset 37.png" alt="" />
+            <img src="assets/asset 37.png" alt="" />
           </div>
         </div>
         <div className="row-start-1 row-end-4 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
@@ -20,13 +20,13 @@ function Feature() {
               We’ll ensure the underlying browser is up to date and deliver
               performance improvements, security patches, & additional features.
             </p>
-            <img src="src/assets/asset 38.png" alt="" />
+            <img src="assets/asset 38.png" alt="" />
           </div>
         </div>
         <div className="row-start-1 row-end-3 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
           <div className="rounded-2xl w-full gap-6 bg-slate-50 h-full flex justify-center items-center flex-col p-6 group-hover:bg-gradient-to-br group-hover:from-red-100 group-hover:via-purple-100 group-to-yellow-100">
             <h3 className="font-bold text-2xl">Plugins</h3>
-            <img src="src/assets/asset 39.png" alt="" />
+            <img src="assets/asset 39.png" alt="" />
           </div>
         </div>
         <div className="row-start-3 row-end-6 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
@@ -37,13 +37,13 @@ function Feature() {
               improvements, security patches and additional features are always
               up to date.
             </p>
-            <img src="src/assets/asset 40.png" alt="" />
+            <img src="assets/asset 40.png" alt="" />
           </div>
         </div>
         <div className="row-start-4 row-end-6 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
           <div className="rounded-2xl w-full gap-6 bg-slate-50 h-full flex justify-center items-center flex-col p-6 group-hover:bg-gradient-to-br group-hover:from-red-100 group-hover:via-purple-100 group-to-yellow-100">
             <h3 className="font-bold text-2xl">Customizable look and feel</h3>
-            <img src="src/assets/asset 42.png" alt="" />
+            <img src="assets/asset 42.png" alt="" />
           </div>
         </div>
         <div className="row-start-3 row-end-6 rounded-2xl p-[1px] bg-slate-200 hover:bg-gradient-to-br from-red-200 via-purple-200 to-yellow-200 group">
@@ -54,7 +54,7 @@ function Feature() {
               operating system & download the most up to date version of your
               app.
             </p>
-            <img src="src/assets/asset 43.png" alt="" />
+            <img src="assets/asset 43.png" alt="" />
           </div>
         </div>
       </div>

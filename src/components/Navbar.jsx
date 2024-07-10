@@ -11,7 +11,7 @@ function Navbar() {
       <a href="#" className="flex justify-center items-center gap-2">
         <img
           className="object-cover max-w-12 max-h-12"
-          src="src/assets/asset 0.png"
+          src="assets/asset 0.png"
           alt="logo"
         />
         <span className="text-lg font-medium font-display">ToDesktop</span>
@@ -36,7 +36,7 @@ function Navbar() {
       </div>
 
       <button className="hidden md:flex items-center gap-2 border border-gray-400 hover:border-gray-700 py-2 px-6 rounded-md">
-        <img src="src/assets/asset 1.svg" alt="" />
+        <img src="assets/asset 1.svg" alt="" />
         <span className="font-semibold ">Electron Developers </span>
         <i className="fa-solid fa-arrow-right"></i>
       </button>
@@ -50,7 +50,7 @@ function Navbar() {
           <a href="#home" className="flex justify-center items-center gap-2">
             <img
               className="object-cover max-w-12 max-h-12"
-              src="src/assets/asset 0.png"
+              src="assets/asset 0.png"
               alt="logo"
             />
             <span className="text-lg font-medium font-display">ToDesktop</span>
@@ -94,7 +94,7 @@ function Navbar() {
         </div>
         <div className="h-[1px] bg-gray-300 mx-4"></div>
         <button className=" w-full mt-6 gap-3 px-6 py-4 flex items-center hover:bg-gray-300 rounded-md">
-          <img src="src/assets/asset 1.svg" alt="" />
+          <img src="assets/asset 1.svg" alt="" />
           <span>Electron Developers </span>
           <i className="fa-solid fa-arrow-right"></i>
         </button>

@@ -64,11 +64,11 @@ function Hero() {
       </div>
       <div className="companies-container flex flex-col gap-8">
         <div className="companies-title flex justify-center gap-4 pt-8 md:pt-10">
-          <img className="translate-y-2" src="src/assets/asset 2.svg" alt="" />
+          <img className="translate-y-2" src="assets/asset 2.svg" alt="" />
           <h1 className="font-semibold">APP POWERED BY TODESKTOP</h1>
           <img
             className="translate-y-2 scale-x-[-1]"
-            src="src/assets/asset 2.svg"
+            src="assets/asset 2.svg"
             alt=""
           />
         </div>
@@ -80,7 +80,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 3.png"
+                src="assets/asset 3.png"
                 alt=""
               />
               <span className="text-[12px] md:text-[16px] font-semibold">
@@ -90,7 +90,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 4.png"
+                src="assets/asset 4.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -100,7 +100,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 5.png"
+                src="assets/asset 5.png"
                 alt=""
               />
 
@@ -111,7 +111,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 6.png"
+                src="assets/asset 6.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -121,7 +121,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 7.png"
+                src="assets/asset 7.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -131,7 +131,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 8.png"
+                src="assets/asset 8.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -141,7 +141,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -151,7 +151,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -161,7 +161,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -171,7 +171,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -181,7 +181,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -191,7 +191,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -203,7 +203,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 3.png"
+                src="assets/asset 3.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -213,7 +213,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 4.png"
+                src="assets/asset 4.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -223,7 +223,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 5.png"
+                src="assets/asset 5.png"
                 alt=""
               />
 
@@ -234,7 +234,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 6.png"
+                src="assets/asset 6.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -244,7 +244,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 7.png"
+                src="assets/asset 7.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -254,7 +254,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 8.png"
+                src="assets/asset 8.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -264,7 +264,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -274,7 +274,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -284,7 +284,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -294,7 +294,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -304,7 +304,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -314,7 +314,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -326,7 +326,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 3.png"
+                src="assets/asset 3.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -336,7 +336,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 4.png"
+                src="assets/asset 4.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -346,7 +346,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 5.png"
+                src="assets/asset 5.png"
                 alt=""
               />
 
@@ -357,7 +357,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 6.png"
+                src="assets/asset 6.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -367,7 +367,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 7.png"
+                src="assets/asset 7.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -377,7 +377,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 8.png"
+                src="assets/asset 8.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -387,7 +387,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -397,7 +397,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -407,7 +407,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -417,7 +417,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -427,7 +427,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">
@@ -437,7 +437,7 @@ function Hero() {
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
-                src="src/assets/asset 9.png"
+                src="assets/asset 9.png"
                 alt=""
               />
               <span className="text-[12px] sm:text-[16px] font-semibold">

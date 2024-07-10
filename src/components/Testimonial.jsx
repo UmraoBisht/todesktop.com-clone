@@ -7,7 +7,7 @@ function Testimonial() {
       <div className="rounded-lg border flex flex-col lg:flex-row items-end pt-6">
         <div className="left flex flex-col gap-8 p-8">
           <div className="h-4 w-fit">
-            <img src="src/assets/asset 44.svg" alt="" />
+            <img src="assets/asset 44.svg" alt="" />
           </div>
           <p className="font-bold text-xl pt-2">
             ClickUp used ToDesktop to get their desktop app in front of
@@ -50,7 +50,7 @@ function Testimonial() {
           <div className="flex gap-3">
             <div className="w-12">
               <img
-                src="src/assets/asset 45.jpeg"
+                src="assets/asset 45.jpeg"
                 alt=""
                 className="rounded-full"
               />
@@ -71,7 +71,7 @@ function Testimonial() {
           </div>
         </div>
         <div className="">
-          <img src="src/assets/asset 46.png" className="pl-12" alt="" />
+          <img src="assets/asset 46.png" className="pl-12" alt="" />
         </div>
       </div>
       <div className="grid-container grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
@@ -93,14 +93,14 @@ function Testimonial() {
               <div className="flex items-center">
                 <div className="w-10 h-10 overflow-hidden rounded-full flex items-center justify-center">
                   <img
-                    src="src/assets/asset 47.png"
+                    src="assets/asset 47.png"
                     alt=""
                     className="min-w-12 min-h-12"
                   />
                 </div>
                 <div className="w-10 h-10 rounded-full flex items-center justify-center -ml-3 border border-white">
                   <img
-                    src="src/assets/asset 48.jpeg"
+                    src="assets/asset 48.jpeg"
                     alt=""
                     className="w-10 h-10 rounded-full"
                   />
@@ -131,14 +131,14 @@ function Testimonial() {
             <div className="flex items-center">
               <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
                 <img
-                  src="src/assets/asset 49.png"
+                  src="assets/asset 49.png"
                   alt=""
                   className="min-w-12 min-h-12"
                 />
               </div>
               <div className="w-10 h-10 rounded-full flex items-center justify-center -ml-3 border border-white">
                 <img
-                  src="src/assets/asset 50.jpeg"
+                  src="assets/asset 50.jpeg"
                   alt=""
                   className="w-10 h-10 rounded-full"
                 />
@@ -172,14 +172,14 @@ function Testimonial() {
             <div className="flex items-center">
               <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
                 <img
-                  src="src/assets/asset 51.png"
+                  src="assets/asset 51.png"
                   alt=""
                   className="min-w-12 min-h-12"
                 />
               </div>
               <div className="w-10 h-10 rounded-full flex items-center justify-center -ml-3 border border-white">
                 <img
-                  src="src/assets/asset 52.jpeg"
+                  src="assets/asset 52.jpeg"
                   alt=""
                   className="w-10 h-10 rounded-full"
                 />

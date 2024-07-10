@@ -28,7 +28,7 @@ function Download() {
           </div>
           <div className="pl-6 overflow-hidden self-end">
             <img
-              src="src/assets/asset 53.png"
+              src="assets/asset 53.png"
               alt=""
               className="relative -bottom-1 -right-1"
             />

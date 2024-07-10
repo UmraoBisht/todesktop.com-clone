@@ -75,7 +75,7 @@ function StepByStep() {
             </ul>
           </div>
           <div className="animate-tech translate-y-0 lg:w-1/2">
-            <img src="src/assets/asset 27.svg" alt="" />
+            <img src="assets/asset 27.svg" alt="" />
           </div>
         </div>
       </div>

@@ -19,13 +19,13 @@ function Footer() {
           </div>
         </div>
         <a href="#" className="flex justify-center items-center">
-          <img src="src/assets/asset 0.png" alt="" />
+          <img src="assets/asset 0.png" alt="" />
           <h3 className="text-xl font-semibold">ToDesktop</h3>
         </a>
       </div>
       <div className="px-6 py-4 grid place-items-center gap-4 mb-8">
         <p className="flex justify-center items-center gap-3">
-          <img src="src/assets/y.png" alt="" className="w-4 h-4" />
+          <img src="assets/y.png" alt="" className="w-4 h-4" />
           <span className="text-sm text-gray-600">A Y Combinator company.</span>
         </p>
         <span className="text-sm text-gray-400">
