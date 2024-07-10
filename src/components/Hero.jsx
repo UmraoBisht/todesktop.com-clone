@@ -1,4 +1,3 @@
-
 function Hero() {
   function setupIntersectionObserver(element, isLTR, speed) {
     const intersectionCallback = (entries) => {
@@ -10,9 +9,9 @@ function Hero() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-300 via-orange-300 to-transparent">
+    <section id="#home" className="min-h-screen bg-gradient-to-b from-purple-300 via-orange-300 to-transparent">
       <div className="max-w-4xl mx-auto px-6 flex flex-col sm:items-center sm:text-center sm:pt-4">
-        <div className="flex w-fit items-center border border-yellow-300 bg-yellow-100 rounded-lg px-3 py-1 my-6  sm:mt-10 gap-2 shadow-md hover:shadow-xl hover:-translate-y-1 transition ease-in-out group">
+        <div className="flex w-fit items-center border border-yellow-300 bg-yellow-100 rounded-lg px-3 py-1 my-6 sm:mt-10 gap-2 shadow-md hover:shadow-xl hover:-translate-y-1 transition ease-in-out group">
           <div className="w-2 h-2 rounded-full bg-yellow-400 border border-yellow-600"></div>
           <p className="font-display font-bold text-yellow-600">
             v0.21.1:{" "}
@@ -55,10 +54,10 @@ function Hero() {
           desktop app and native functionality.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center text-center mt-4">
-          <button className="text-lg bg-primary p-3 sm:px-8 rounded-xl text-white font-semibold">
+          <button className="text-lg bg-primary p-3 sm:px-8 rounded-xl text-white font-semibold hover:bg-opacity-85">
             Download now
           </button>
-          <button className="text-lg border border-gray-600 sm:px-8 bg-gray-100 p-3 rounded-xl font-semibold">
+          <button className="text-lg border border-gray-400 sm:px-8 bg-gray-100 p-3 rounded-xl font-semibold hover:border-gray-800">
             Read docs
           </button>
         </div>
@@ -73,10 +72,10 @@ function Hero() {
             alt=""
           />
         </div>
-        <div className="lines-group flex flex-col gap-4 overflow-hidden">
+        <div className="lines-group flex flex-col w-full justify-between items-center gap-4 overflow-hidden">
           <div
             id="line1"
-            className="-translate-x-20 line1 flex gap-4 w-screen scroll-x"
+            className="-translate-x-20 line1 flex gap-4"
           >
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
@@ -200,7 +199,7 @@ function Hero() {
               </span>
             </div>
           </div>
-          <div className="-translate-x-5 line2 flex gap-4 w-screen">
+          <div className="-translate-x-5 line2 flex gap-4">
             <div className="flex flex-col justify-center items-center min-w-24 min-h-24 bg-white border border-gray-300 rounded-xl">
               <img
                 className="w-12 h-12 md:w-16 md:h-16"
@@ -448,7 +447,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

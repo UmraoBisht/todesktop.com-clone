@@ -2,7 +2,7 @@ import React from "react";
 
 function StepByStep() {
   return (
-    <div className="flex flex-col gap-[3rem] px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
+    <section className="flex flex-col gap-[3rem] px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
       <div className="step1">
         <h2 className="text-5xl font-semibold mb-[4rem]">How it works</h2>
         <div className="rounded-xl bg-gray-200 px-8 py-12 border flex gap-10 lg:justify-between flex-col lg:flex-row">
@@ -109,11 +109,11 @@ function StepByStep() {
                     y2="16"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="hsl(228deg 2% 53%)"></stop>
+                    <stop stopColor="hsl(228deg 2% 53%)"></stop>
                     <stop
                       offset="1"
-                      stop-color="hsl(228deg 2% 53%)"
-                      stop-opacity="0"
+                      stopColor="hsl(228deg 2% 53%)"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                 </defs>
@@ -289,7 +289,7 @@ function StepByStep() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

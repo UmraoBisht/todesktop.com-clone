@@ -4,7 +4,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState("hidden");
   const handleMenu = () => {
     // Add your menu handling logic here
-    setIsMenuOpen(isMenuOpen=="hidden"?"block":"hidden");
+    setIsMenuOpen(isMenuOpen == "hidden" ? "block" : "hidden");
   };
   return (
     <nav className="p-3 sticky top-0 w-full z-50 bg-white flex justify-between items-center shadow-md">
@@ -47,7 +47,7 @@ function Navbar() {
 
       <div className={`${isMenuOpen} md:hidden z-10 fixed bg-red-50 inset-0`}>
         <div className="flex justify-between items-center p-3">
-          <a href="#" className="flex justify-center items-center gap-2">
+          <a href="#home" className="flex justify-center items-center gap-2">
             <img
               className="object-cover max-w-12 max-h-12"
               src="src/assets/asset 0.png"
@@ -60,34 +60,34 @@ function Navbar() {
           </button>
         </div>
 
-        <div className="flex flex-col px-5 py-4 md:hidden gap-4 font-normal ">
+        <div className="flex flex-col px-5 py-4 md:hidden gap-4 ">
           <a
-            href="#"
-            className="py-3 px-4 text-gray-700 font-semibold hover:bg-gray-50 rounded-md"
+            href="#pricing"
+            className="py-3 px-4 text-gray-700 font-bold text-xl hover:bg-gray-50 rounded-md"
           >
             Pricing
           </a>
           <a
-            href="#"
-            className="py-3 px-4 text-gray-700 font-semibold hover:bg-gray-50 rounded-md"
+            href="#docs"
+            className="py-3 px-4 text-gray-700 font-bold text-xl hover:bg-gray-50 rounded-md"
           >
             Docs
           </a>
           <a
-            href="#"
-            className="py-3 px-4 text-gray-700 font-semibold hover:bg-gray-50 rounded-md"
+            href="#changelog"
+            className="py-3 px-4 text-gray-700 font-bold text-xl hover:bg-gray-50 rounded-md"
           >
             Changelog
           </a>
           <a
-            href="#"
-            className="py-3 px-4 text-gray-700 font-semibold hover:bg-gray-50 rounded-md"
+            href="#blog"
+            className="py-3 px-4 text-gray-700 font-bold text-xl hover:bg-gray-50 rounded-md"
           >
             Blog
           </a>
           <a
-            href="#"
-            className="py-2 px-4 text-gray-700 font-semibold hover:bg-gray-50 rounded-md"
+            href="#login"
+            className="py-2 px-4 text-gray-700 font-bold text-xl hover:bg-gray-50 rounded-md"
           >
             Login
           </a>

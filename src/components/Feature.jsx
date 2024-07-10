@@ -2,7 +2,7 @@ import React from "react";
 
 function Feature() {
   return (
-    <div className="bento-grid px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
+    <section className="bento-grid px-6 py-8 mx-auto lg:px-8 mt-10 max-w-7xl">
       <h2 className="text-5xl font-semibold mb-[4rem]">
         ToDesktop handles the details
       </h2>
@@ -58,7 +58,7 @@ function Feature() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

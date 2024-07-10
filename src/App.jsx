@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import StepByStep from "./components/StepByStep";
 import Testimonial from "./components/Testimonial";
 import Pricing from "./components/Pricing";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
         <Testimonial />
         <Download />
         <Pricing />
+        <Faq />
+        <Footer />
       </main>
     </>
   );

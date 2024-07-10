@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section className="px-6 py-4 mx-auto lg:px-8 mt-10 max-w-7xl">
+    <section id="#pricing" className="px-6 py-4 mx-auto lg:px-8 mt-10 max-w-7xl">
       <h2 className="text-5xl font-semibold mb-[4rem]">
         Choose a plan that fits your needs
       </h2>
@@ -115,7 +115,7 @@ function Pricing() {
             </button>
           </div>
         </div>
-        <div className="flex justify-between flex-col lg:flex-row bg-black rounded-2xl py-6 mt-10 gap-8">
+        <div className="flex justify-between flex-col md:flex-row bg-black rounded-2xl py-6 mt-10 gap-8">
           <div className="px-8 flex gap-6 flex-col">
             <span className="text-gray-300 text-lg font-semibold">
               DEDICATED SUPPORT AND EXPERT GUIDANCE.
@@ -148,7 +148,7 @@ function Pricing() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col justify-center items-center self-center bg-[#fafafc] mx-6 py-8 px-12 rounded-xl gap-8 w-5/6 md:w-2/6">
+          <div className="flex flex-col justify-center items-center self-center bg-[#fafafc] mx-6 py-8 px-12 rounded-xl gap-8 w-5/6 lg:w-2/6">
             <div className="grid place-items-center gap-8">
               <p className="text-gray-500 font-semibold text-center text-lg">
                 Secure, reliable cross-platform desktop apps for enterprise

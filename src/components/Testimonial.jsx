@@ -119,7 +119,7 @@ function Testimonial() {
           <div className="rounded-2xl w-full gap-10 bg-gray-50 h-full flex justify-between flex-col p-9 group-hover:bg-gradient-to-br group-hover:from-red-100 group-hover:via-purple-100 group-to-yellow-100">
             <div className="flex gap-2 md:flex-col">
               <div className="p-3 rounded-full w-8 h-8 md:w-12 md:h-12 flex justify-center items-center bg-blue-200">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
               </div>
               <h3 className="font-bold text-2xl">Cleaner, less cluttered UI</h3>
             </div>
@@ -159,7 +159,7 @@ function Testimonial() {
           <div className="rounded-2xl w-full gap-10 bg-gray-50 h-full flex justify-between flex-col p-9 group-hover:bg-gradient-to-br group-hover:from-red-100 group-hover:via-purple-100 group-to-yellow-100">
             <div className="flex gap-2 md:flex-col">
               <div className="p-3 rounded-full w-8 h-8 md:w-12 md:h-12 flex justify-center items-center bg-blue-200">
-                <i class="fa-solid fa-infinity"></i>
+                <i className="fa-solid fa-infinity"></i>
               </div>
               <h3 className="font-bold text-2xl">Code optional</h3>
             </div>
